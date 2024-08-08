@@ -1,17 +1,100 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title></title>
-		<style>
-			body{
-				background: url(img/bg-82656969.webp);
-			}
-		</style>
-	</head>
-	<body>
-		<header>测试主题1</header>
-		<section>测试文档1</section>
-		<footer>测试结尾1</footer>
-	</body>
+<html lang="zh-cn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>幽都</title>
+    <link rel="stylesheet" href="css/body1frame.css" />
+    <style>
+      a {
+        text-decoration: none;
+        color: chartreuse;
+      }
+      body {
+        background-image: url(img/bg-82656969.webp);
+      }
+      .neirong {
+        color: white;
+      }
+      .shengming {
+        color: white;
+      }
+      a:hover {
+        text-decoration: none;
+        color: red;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div
+      style="
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      "
+    >
+      <touxianglan
+        style="
+          width: 160px;
+          width: 100%;
+          /* background-color: #eee; */
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        "
+      >
+        <img src="img/touxiang.jpg" alt="头像" width="100px" height="100px" />
+      </touxianglan>
+
+      <!-- <p>
+        <marquee
+          scrolldelay="5ms"
+          scrollamount="10ms"
+          style="width: auto; height: 50px"
+          text-align="center"
+        >
+          绝妙的点子往往只是海市蜃楼，不经验证的想法终会成空。
+        </marquee>
+      </p> -->
+      <zhuneirong
+        style="
+          display: block;
+          padding: 30px;
+          max-width: 700px;
+          width: 90%;
+          letter-spacing: 1px;
+          line-height: 1.7;
+        "
+        ><h3 class="neirong1 neirong">哈喽！</h3>
+        <p class="neirong">这是我的幽都测试区块链</p>
+        <p class="neirong">欢迎来到我的网站</p>
+        <p class="neirong">起源于2024/8/8/11：33</p>
+        <p class="neirong">这里是我的个人简页</p>
+        <p class="tiaozhuan neirong">
+          <a href="zc.html"><span>我的个人主页请点击此处</span></a>
+        </p>
+        <p class="neirong">正在持续发展中~</p></zhuneirong
+      >
+      <dibulan
+        style="
+          width: 200px;
+          width: 100%;
+          /* background-color: #eee; */
+          display: flex;
+          align-items: center;
+          padding: 20px;
+          letter-spacing: 1px;
+          line-height: 1.7;
+          display: flex;
+          flex-direction: column;
+          margin-top: auto;
+        "
+      >
+        <p class="shengming">版权声明:</p>
+        <p class="shengming">网站备案号:</p>
+      </dibulan>
+    </div>
+  </body>
 </html>
